@@ -1,69 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fondo">
     <head>
+        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
         <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mi página web</title>
     </head>
     <body>
 
-        <header>
-        <h1>Mi página web</h1>
-        <span> HOME</span>
-        <span> NOTICIAS </span>
-        <span>CLIMA </span>
-        </header>
-
-    <hr />
+        <header class="fondo">
+        <div id="principal-contenedor">
+        <h1 id="principal">MI OPTICO</h1>
+    </div>
+        <h1 class="encabezado" >ÓPTICA Y CONTACTOLOGÍA</h1>
         
-        <main>
+        <div id="opciones-contenedor">
+        <span class="opciones"> HOME</span>
+        <span class="opciones"> PRODUCTOS</span>
+        <span class="opciones"> CARRITO</span>
+        <span class="opciones"> NOSOTROS</span>
+        </div>
+        </header>
+        
+        <main class="fondo">
 <section>
-        <h2> Este es un titulo de una seccion de noticias</h2>
+        <h2 class="titulos"> Este es un titulo de una seccion de noticias</h2>
 
     <article>
-        <h3> Esta es la noticia N°1</h3>
+        <h3 class="titulos"> Esta es la noticia N°1</h3>
         <div>
-            <p> Este sera el primer parrafo de mi noticia </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa, officiis rem, saepe reiciendis beatae quia
+            <p class="texto "> Este sera el primer parrafo de mi noticia </p>
+            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa, officiis rem, saepe reiciendis beatae quia
             nostrum doloribus sapiente facilis laudantium! Omnis aperiam voluptas recusandae at laborum, tenetur porro eum.</p>
         </div>
     </article>
 
     <article>
-        <h3>Esta es la noticia N°2</h3>
-        <p> Este es un listado de cosas importantes de esta noticia</p>
+        <div>
+        <h3 class="titulos">Esta es la noticia N°2</h3>
+        <p class="texto"> Este es un listado de cosas importantes de esta noticia</p>
         <ol>
-        <li> Deportes</li>
-        <li> Politica</li>
-        <li> Economia</li>
+        <li class="texto"> Deportes</li>
+        <li class="texto"> Politica</li>
+        <li class="texto"> Economia</li>
         </ol>
+        </div>
     </article>
         
     <article>
-        <h3>Esta es la noticia N°3</h3>
-        <p> Este es un listado de cosas importantes de esta semana</p>
+        <div>
+        <h3 class="titulos">Esta es la noticia N°3</h3>
+        <p class="texto"> Este es un listado de cosas importantes de esta semana</p>
         <ul>
-        <li> Catastrofe en Mexico</li>
-        <img src="./images.jpeg" />
-        <li> San Lorenzo campeon de America</li>
-        <img src="./tapa_clarin.jpg" />
-        <li> Sigue la guerra de ucrania</li>
-        <img src="./Ucrania_Rusia_conflicto_290632.jpeg" />
+        <li class="texto"> Catastrofe en Mexico</li>
+        <img src="./images.jpeg" class="image"/>
+        <li class="texto"> San Lorenzo campeon de America</li>
+        <img src="./tapa_clarin.jpg" class="image" />
+        <li class="texto"> Sigue la guerra de ucrania</li>
+        <img src="./Ucrania_Rusia_conflicto_290632.jpeg" class="image"/>
         </ul>
+        </div>
     </article>
 
 </section>
         </main>
 
     <hr />
-
+        
         <footer>
-        <p>
-        Este es el footer de mi pagina. Ahora voy a poner unos enlaces
+        <div id="footer-principal">
+        <p class="texto">
+        Tienes un 20% en cristales y armazones con todas las obras sociales y prepagas, haciento tu compra de manera presencial
         </p>
-        <a href="./contacto.html"> CONTACTO</a>
-        <a href="./ubicacion.html"> UBICACIÓN</a>
-        <a href="./nosotros.html"> NOSOTROS</a>
+        </div>
+
+        <div id="footer-opciones">
+        <a href="./contacto.html" class="opciones"> CONTACTO</a>
+        <a href="./ubicacion.html" class="opciones"> UBICACIÓN</a>
+        <a href="./nosotros.html" class="opciones"> NOSOTROS</a>
+        </div>
         </footer>
        
     </body>
